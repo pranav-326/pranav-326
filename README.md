@@ -2,7 +2,7 @@
 - 👀 I’m interested in Java, Webdev, Android dev, python and Swift
 - 🌱 I’m currently learning Webdev
 - 💞️ I’m looking to collaborate on mail
-- 📫To reach me mail pranav3.2.2006@gmail.com
+- 📫To reach me mail to pranav3.2.2006@gmail.com
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: I love cats!
 
