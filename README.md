@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @pranav-326
-- 👀 I’m interested in Java, Webdev, Android dev, python and Swift
+- 👀 I’m interested in Java, Webdev, Mobile Application development, Python and everything I am learning right now
 - 🌱 I’m currently learning Webdev
 - 💞️ I’m looking to collaborate on mail
 - 📫To reach me, mail to pranav3.2.2006@gmail.com
