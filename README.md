@@ -7,6 +7,8 @@
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: I love cats!
 
+
+[![An image of @pranav326's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/pranav326)](https://holopin.io/@pranav326)
 <!---
 pranav-326/pranav-326 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
