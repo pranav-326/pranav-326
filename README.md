@@ -3,15 +3,15 @@
 
 - 🌱 I’m currently learning **Full stack web development**
 
-- 👨‍💻 All of my projects are available at [https://pranav-326.github.io/my-website/](https://pranav-326.github.io/my-website/)
+- 👨‍💻 All of my projects are available at [portfolio](https://pranav-326.github.io/my-website/)
 
-- 📝 I regularly write articles on [https://pranav-326.github.io/my-website/resources/blogs.html](https://pranav-326.github.io/my-website/resources/blogs.html)
+- 📝 I regularly write articles on [blogs](https://pranav-326.github.io/my-website/resources/blogs.html)
 
 - 💬 Ask me about **Java**
 
 - 📫 How to reach me **pranav3.2.2006@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1-80Rki5RblOe7G1_8Bxez_YJHu4y3AVh/view?usp=drive_link](https://drive.google.com/file/d/1-80Rki5RblOe7G1_8Bxez_YJHu4y3AVh/view?usp=drive_link)
+- 📄 Know about my experiences [resume](https://drive.google.com/file/d/1-80Rki5RblOe7G1_8Bxez_YJHu4y3AVh/view?usp=drive_link)
 
 - ⚡ Fun fact **I love cats**
 
