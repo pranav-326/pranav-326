@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **Java**
 
-- 📫 How to reach me **pranav3.2.2006@gmail.com**
+- 📫 How to reach me **akpranav66@gmail.com**
 
 - 📄 Know about my experiences in my [resume](https://drive.google.com/file/d/1-80Rki5RblOe7G1_8Bxez_YJHu4y3AVh/view?usp=drive_link)
 
