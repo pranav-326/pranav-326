@@ -1,11 +1,7 @@
 <h1 align="center">Hi 👋, I'm Pranav</h1>
-<h3 align="center">Information Science freshman at The National Institute of Engineering</h3>
+<h3 align="center">Information Science sophomore at The National Institute of Engineering</h3>
 
 - 🌱 I’m currently learning **Full stack web development**
-
-- 👨‍💻 All of my projects are available at my [portfolio](https://pranav-326.github.io/my-website/)
-
-- 📝 I regularly write articles on [blogs](https://pranav-326.github.io/my-website/resources/blogs.html) of my website
 
 - 💬 Ask me about **Java**
 
