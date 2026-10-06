@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Pranav</h1>
-<h3 align="center">Information Science sophomore at The National Institute of Engineering</h3>
+<h3 align="center">Information Science junior at The National Institute of Engineering</h3>
 
 - 🌱 I’m currently learning **Spring-Boot**
 
