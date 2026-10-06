@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **akpranav66@gmail.com**
 
-- 📄 Know about my experiences in my [resume[](https://drive.google.com/file/d/1-80Rki5RblOe7G1_8Bxez_YJHu4y3AVh/view?usp=drive_link](https://drive.google.com/file/d/1IZGFZdZB4BeE2dP1hIjVqaiTu-9c2giS/view?usp=sharing))
+- 📄 Know about my experiences in my [resume](https://drive.google.com/file/d/1IZGFZdZB4BeE2dP1hIjVqaiTu-9c2giS/view?usp=sharing)
 
 - ⚡ Fun fact **I love cats**
 
