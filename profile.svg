@@ -27,12 +27,10 @@ text{font-family:Consolas,"SFMono-Regular",Menlo,Monaco,"Liberation Mono",monosp
 <rect x="12" y="12" width="1576" height="1136" rx="18" fill="none" stroke="#303946"/>
 <circle cx="38" cy="38" r="6" fill="#ff7b72"/><circle cx="58" cy="38" r="6" fill="#ffa657"/><circle cx="78" cy="38" r="6" fill="#7ee787"/>
 <text x="104" y="43" class="code">pranav@devbox: ~/profile</text>
-<text x="1554" y="43" text-anchor="end" class="muted">HTTP PROFILE INTERFACE</text>
 <line x1="24" y1="62" x2="1576" y2="62" class="rule"/>
 <rect x="24" y="82" width="656" height="1054" rx="12" class="panel"/>
 <rect x="696" y="82" width="880" height="1054" rx="12" class="panel"/>
 <text x="46" y="113" class="heading">~/identity</text>
-<text x="46" y="128" class="muted">ASCII_RENDER · SOURCE_ART.TXT</text>
 <line x1="49" y1="138" x2="658" y2="138" class="rule"/>
 ```
 ```
@@ -188,6 +186,5 @@ text{font-family:Consolas,"SFMono-Regular",Menlo,Monaco,"Liberation Mono",monosp
 <text x="822" y="1034" class="value">"community_reach": "1,000+ attendees"</text>
 <text x="810" y="1051" class="code">}</text>
 </g>
-<text x="1552" y="1115" class="muted" text-anchor="end">PROFILE RESPONSE COMPLETE · 200 OK</text>
 </g>
 </svg>
