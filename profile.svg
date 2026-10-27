@@ -8,20 +8,16 @@
 text{font-family:Consolas,"SFMono-Regular",Menlo,Monaco,"Liberation Mono",monospace}
 .bg{fill:#161b22}
 .panel{fill:#1b222c;stroke:#303946;stroke-width:1.2}
-.heading{fill:#c9d1d9;font-size:15px;font-weight:700}
-.muted{fill:#8b949e;font-size:10.5px}
-.label{fill:#ffa657;font-size:11.2px}
-.value{fill:#1782d9;font-size:11.2px}
-.code{fill:#c9d1d9;font-size:11.2px}
-.endpoint{fill:#25ad40;font-size:11.2px}
-.method-get{fill:#7ae183;font-size:11.2px;font-weight:700}
-.method-post{fill:#ff7b72;font-size:11.2px;font-weight:700}
-.status{fill:#7ee787;font-size:10.8px;font-weight:700}
+.heading{fill:#c9d1d9;font-size:20px;font-weight:700}
+.muted{fill:#8b949e;font-size:11px}
+.value{fill:#1782d9;font-size:18px}
+.code{fill:#c9d1d9;font-size:18px}
+.endpoint{fill:#25ad40;font-size:15px}
+.method-get{fill:#7ae183;font-size:18px;font-weight:700}
+.method-post{fill:#ff7b72;font-size:18px;font-weight:700}
+.status{fill:#7ee787;font-size:14px;font-weight:700}
 .rule{stroke:#303946;stroke-width:1}
 .art{fill:#a5d6ff;font-size:6.2px}
-.project{fill:#ffa657;font-size:12px;font-weight:700}
-.project-meta{fill:#8b949e;font-size:10.4px}
-.project-body{fill:#efefe6;font-size:10.8px}
 </style>
 <rect class="bg" width="1600" height="1160" rx="22"/>
 <rect x="12" y="12" width="1576" height="1136" rx="18" fill="none" stroke="#303946"/>
@@ -171,7 +167,7 @@ text{font-family:Consolas,"SFMono-Regular",Menlo,Monaco,"Liberation Mono",monosp
 <line x1="798" y1="692" x2="1150" y2="692" class="rule"/>
 <text x="798" y="714" class="heading">04 / SOCIAL ENDPOINTS</text>
 <text x="798" y="737" class="method-post">POST</text>
-<text x="836" y="737" class="endpoint">/api/v1/socials</text>
+<text x="850" y="737" class="endpoint"> /api/v1/socials</text>
 <text x="798" y="755" class="muted">Content-Type: application/json</text>
 <text x="810" y="773" class="code">{</text>
 <text x="822" y="790" class="value">"github": "github.com/pranav-326"</text>
@@ -180,73 +176,17 @@ text{font-family:Consolas,"SFMono-Regular",Menlo,Monaco,"Liberation Mono",monosp
 <text x="810" y="841" class="code">}</text>
 <text x="798" y="860" class="status">HTTP/1.1 201 Created</text>
 <line x1="798" y1="874" x2="1150" y2="874" class="rule"/>
-<text x="798" y="895" class="heading">05 / ENGINEERING SIGNALS</text>
+<line x1="798" y1="874" x2="1150" y2="874" class="rule"/>
+<text x="798" y="895" class="heading">05 / IMPACT</text>
 <text x="798" y="918" class="method-get">GET</text>
-<text x="836" y="918" class="endpoint">/api/v1/highlights</text>
+<text x="836" y="918" class="endpoint">/api/v1/impact</text>
 <text x="798" y="936" class="status">HTTP/1.1 200 OK</text>
 <text x="810" y="954" class="code">{</text>
-<text x="822" y="971" class="value">"testing": "JUnit 5, Mockito; happy-path + errors"</text>
-<text x="822" y="988" class="value">"open_source": "4+ Hacktoberfest pull requests"</text>
-<text x="822" y="1005" class="value">"algorithms": "Data structures &amp; algorithms"</text>
-<text x="810" y="1022" class="code">}</text>
-<text x="1184" y="115" class="heading">06 / PROJECTS</text>
-<text x="1184" y="138" class="method-get">GET</text>
-<text x="1222" y="138" class="endpoint">/api/v1/projects</text>
-<text x="1184" y="156" class="status">HTTP/1.1 200 OK</text>
-<text x="1184" y="174" class="project">Employee Management System</text>
-<text x="1184" y="190" class="project-meta">Java · Spring Boot · Data JPA · PostgreSQL</text>
-<text x="1184" y="208" class="project-body">Layered CRUD REST API with GitHub OAuth2</text>
-<text x="1184" y="223" class="project-body">session security; service tests with JUnit 5</text>
-<text x="1184" y="238" class="project-body">and Mockito for normal and exception cases.</text>
-<line x1="1184" y1="249" x2="1552" y2="249" class="rule"/>
-<text x="1184" y="269" class="project">ReGene</text>
-<text x="1184" y="285" class="project-meta">Python · TinyLlama · LoRA/PEFT · TRL</text>
-<text x="1184" y="303" class="project-body">Fine-tuned on a custom IEEE event-report</text>
-<text x="1184" y="318" class="project-body">JSONL dataset; reduced report turnaround</text>
-<text x="1184" y="333" class="project-body">from hours to minutes; published to Hugging Face.</text>
-<line x1="1184" y1="344" x2="1552" y2="344" class="rule"/>
-<text x="1184" y="364" class="project">Netra · Smart India Hackathon 2026</text>
-<text x="1184" y="380" class="project-meta">Python · FastAPI · ML · Next.js</text>
-<text x="1184" y="398" class="project-body">Email threat intelligence and forensics with</text>
-<text x="1184" y="413" class="project-body">phishing detection, URL and attachment checks,</text>
-<text x="1184" y="428" class="project-body">graph-based campaign correlation and telemetry.</text>
-<text x="1184" y="443" class="project-body">Logistic regression: ROC-AUC 0.867 on 7,321 emails.</text>
-<line x1="1184" y1="454" x2="1552" y2="454" class="rule"/>
-<text x="1184" y="474" class="project">Walkie-Yappie</text>
-<text x="1184" y="490" class="project-meta">Kotlin · Jetpack Compose · BLE · Wi-Fi Direct</text>
-<text x="1184" y="508" class="project-body">Offline walkie-talkie using BLE discovery and</text>
-<text x="1184" y="523" class="project-body">Wi-Fi Direct push-to-talk audio; mutual-approval</text>
-<text x="1184" y="538" class="project-body">pairing and outdoor range/stability field tests.</text>
-<line x1="1184" y1="549" x2="1552" y2="549" class="rule"/>
-<text x="1184" y="571" class="heading">07 / EXPERIENCE &amp; COMMUNITY</text>
-<text x="1184" y="594" class="method-get">GET</text>
-<text x="1222" y="594" class="endpoint">/api/v1/experience</text>
-<text x="1184" y="612" class="status">HTTP/1.1 200 OK</text>
-<text x="1196" y="630" class="code">{</text>
-<text x="1208" y="647" class="value">"nie_ieee": "Technology Coordinator"</text>
-<text x="1208" y="664" class="value">"term": "Dec 2025–Present"</text>
-<text x="1208" y="681" class="code">30+ React event platforms for 100+ participants;</text>
-<text x="1208" y="696" class="code">event-report automation and 3-session LangChain</text>
-<text x="1208" y="711" class="code">curriculum for 30+ students; GitHub org admin.</text>
-<text x="1208" y="736" class="value">"ieee_cs_bangalore": "Volunteer"</text>
-<text x="1208" y="753" class="value">"term": "Apr 2026–Present"</text>
-<text x="1208" y="770" class="code">10+ event creatives reaching 1,000+ attendees;</text>
-<text x="1208" y="785" class="code">co-developed an LLM-powered job-readiness evaluator.</text>
-<text x="1208" y="810" class="value">"hacktoberfest": "Open-source contributor"</text>
-<text x="1208" y="827" class="value">"term": "Oct–Nov 2024"</text>
-<text x="1208" y="844" class="code">4+ pull requests: bug fixes, optimization, docs,</text>
-<text x="1208" y="859" class="code">and collaboration through peer code reviews.</text>
-<text x="1196" y="878" class="code">}</text>
-<line x1="1184" y1="890" x2="1552" y2="890" class="rule"/>
-<text x="1184" y="912" class="heading">08 / IMPACT</text>
-<text x="1184" y="935" class="method-get">GET</text>
-<text x="1222" y="935" class="endpoint">/api/v1/impact</text>
-<text x="1184" y="953" class="status">HTTP/1.1 200 OK</text>
-<text x="1196" y="971" class="code">{</text>
-<text x="1208" y="988" class="value">"event_platforms": "30+ built"</text>
-<text x="1208" y="1005" class="value">"participants": "100+ served"</text>
-<text x="1208" y="1022" class="value">"reporting": "Hours to minutes"</text>
-<text x="1208" y="1039" class="value">"community_reach": "1,000+ attendees"</text>
+<text x="822" y="971" class="value">"event_platforms": "30+ built"</text>
+<text x="822" y="988" class="value">"participants": "100+ served"</text>
+<text x="822" y="1005" class="value">"reporting": "Hours to minutes"</text>
+<text x="822" y="1022" class="value">"community_reach": "1,000+ attendees"</text>
+<text x="810" y="1039" class="code">}</text>
 <text x="1196" y="1056" class="code">}</text>
 <text x="1552" y="1115" class="muted" text-anchor="end">PROFILE RESPONSE COMPLETE · 200 OK</text>
 </g>
