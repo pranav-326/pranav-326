@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1160" viewBox="0 0 1600 1160" role="img" aria-labelledby="title desc">
+<title id="title">Pranav A Korlahalli — terminal developer profile</title>
+<desc id="desc">A terminal-inspired developer profile with supplied ASCII art and simulated HTTP GET and POST requests.</desc>
+<defs>
+  <clipPath id="asciiClip"><rect x="30" y="132" width="690" height="1000" rx="4"/></clipPath>
+</defs>
+<style>
+text{font-family:Consolas,"SFMono-Regular",Menlo,Monaco,"Liberation Mono",monospace}
+.bg{fill:#161b22}
+.panel{fill:#1b222c;stroke:#303946;stroke-width:1.2}
+.heading{fill:#c9d1d9;font-size:15px;font-weight:700}
+.muted{fill:#8b949e;font-size:10.5px}
+.label{fill:#ffa657;font-size:11.2px}
+.value{fill:#1782d9;font-size:11.2px}
+.code{fill:#c9d1d9;font-size:11.2px}
+.endpoint{fill:#25ad40;font-size:11.2px}
+.method-get{fill:#7ae183;font-size:11.2px;font-weight:700}
+.method-post{fill:#ff7b72;font-size:11.2px;font-weight:700}
+.status{fill:#7ee787;font-size:10.8px;font-weight:700}
+.rule{stroke:#303946;stroke-width:1}
+.art{fill:#a5d6ff;font-size:6.2px}
+.project{fill:#ffa657;font-size:12px;font-weight:700}
+.project-meta{fill:#8b949e;font-size:10.4px}
+.project-body{fill:#efefe6;font-size:10.8px}
+</style>
+<rect class="bg" width="1600" height="1160" rx="22"/>
+<rect x="12" y="12" width="1576" height="1136" rx="18" fill="none" stroke="#303946"/>
+<circle cx="38" cy="38" r="6" fill="#ff7b72"/><circle cx="58" cy="38" r="6" fill="#ffa657"/><circle cx="78" cy="38" r="6" fill="#7ee787"/>
+<text x="104" y="43" class="code">pranav@devbox: ~/profile</text>
+<text x="1554" y="43" text-anchor="end" class="muted">HTTP PROFILE INTERFACE</text>
+<line x1="24" y1="62" x2="1576" y2="62" class="rule"/>
+<rect x="24" y="82" width="656" height="1054" rx="12" class="panel"/>
+<rect x="696" y="82" width="880" height="1054" rx="12" class="panel"/>
+<text x="46" y="113" class="heading">~/identity</text>
+<text x="46" y="128" class="muted">ASCII_RENDER · SOURCE_ART.TXT</text>
+<line x1="49" y1="138" x2="658" y2="138" class="rule"/>
+```
+```
+<g clip-path="url(#asciiClip)">
+<text x="69" y="151.0" class="art" xml:space="preserve">                                          .##@@#-o#--======#@o=====.</text>
+<text x="69" y="160.5" class="art" xml:space="preserve">                                        .@@@@#o@@- .-o#o-@@o###@@#o@@@@o-..==ooo##@###@##o=---.</text>
+<text x="69" y="170.0" class="art" xml:space="preserve">                                        @@@@@@@#o-    #@@-.-o-=-....-=o==o#==o=oooo#@@@#@o#@@#@#@#oo=-...</text>
+<text x="69" y="179.5" class="art" xml:space="preserve">                                        =.   o@@@##  .o=.. .....--=====-=#o###@@#o#oo=o=-==#@#o-=oo=...-=o=-.</text>
+<text x="69" y="189.0" class="art" xml:space="preserve">                                        .@==-.#@@@#@@=--..-.-----ooo=oo#@@@@@@@o@@@#o-=-=o=o##@#o=.. =o=-...=o=.</text>
+<text x="69" y="198.5" class="art" xml:space="preserve">                                        .-    .@@oo=-=-=o=###@@@@#@oo@@#@@@@@@#@@o#@@o#@@####@##@@#.   #oo=..--oo=-</text>
+<text x="69" y="208.0" class="art" xml:space="preserve">                                       .o   -=ooo#=#@#@##@@#o##@@@@##@@o==o#ooooooooo-=.--o=-=oo#o=o@@@@@@=@-...-o=o#=.</text>
+<text x="69" y="217.5" class="art" xml:space="preserve">                                      .o=@#oooo=o#ooo-=##@#ooo##oo#@o.....-=-...--......-##@#@##@@@@##o#oooooo#=--o-=##o-.</text>
+<text x="69" y="227.0" class="art" xml:space="preserve">                     .-------.     .=@@oo=--=oo==#=-...-.=o=o=o==o=......  .=-.--..-.-===-====--.  .-=oo@##o=##=#o=oo=@oo@##o-.</text>
+<text x="69" y="236.5" class="art" xml:space="preserve">                 .o##@@@#@@@@######==oooo--===o=.-=--...===- .---.        --=@==-------...      .-=oo=o#oo=====o@@ooo##===o#@@@@o-</text>
+<text x="69" y="246.0" class="art" xml:space="preserve">                =@o@@@##@#@@@#oooo===o=--o=#o-.-#. ..--oo-. .-=..         ..==o---.....-...-. .-oo==o=o===oo@#o#o=o=#@#o=#=o@@@##@#o-</text>
+<text x="69" y="255.5" class="art" xml:space="preserve">              .=o@=#@@oooo===--=---..---o#ooo=o#o=-==o=o=.  -.-...--===------.o=o...=o-o=-o=-=o=#==o=-@##o#@#oo=  =o-o#@@##o@@o@@@@o##=.</text>
+<text x="69" y="265.0" class="art" xml:space="preserve">            =o=o=--.--......=......-----===---=oo#o#@#-==--. .....-=====-..=ooo==o-...--.=oo=o#####oo=oo=oo###o====.==o@@@@##@@@@@@#o@@@o.</text>
+<text x="69" y="274.5" class="art" xml:space="preserve">           -##o@@-=--..... ... ....--o=. .... ..  .=o@o=--.......-...    ...=oooo=--.....-----....-==oooooo##@@@#oo===##====##o#@@@#o=#@@@oo#@@@.</text>
+<text x="69" y="284.0" class="art" xml:space="preserve">            =-@@=o===----. -......-. =#-.-o##ooo.=   .o=...........    ..-=o##o=-=-...   .  -. .....=---===oooo#####==#===.---#o=oo##@#@@@@#@@@@@.</text>
+<text x="69" y="293.5" class="art" xml:space="preserve">            .#oo------=o-=.. ..... .--#o-=o####=.. --  ===..     ...-==oooo==oooooo--.-       ....   .....-..-===@@#=.@@=--- .---==-..=o=oo#@#@#o-</text>
+<text x="69" y="303.0" class="art" xml:space="preserve">            -#----.--.===-==-.-.  .-o#@@@@oo==-===-oo= -=ooooo=---.-..----==o##@@##o.-=--..                    .=-=oo=-@@=-.......--.-.....-o=o@=</text>
+<text x="69" y="312.5" class="art" xml:space="preserve">           .@#-=------.--.-=-....=#@@@@@@@##oo#@o=o############ooooo====oo###@@@@@@#-.-=-=-...       .-..--.... ..=ooo=.--..---.... ..---....-==--</text>
+<text x="69" y="322.0" class="art" xml:space="preserve">           .==--=--==.....--==oo#@@@@@@@@@@##o#@@@@@@@#@@@@##############@@@@@@@@@@@#-.o..==-.  .     .--.....      ..--==.=#===-...-.....-=--.---.</text>
+<text x="69" y="331.5" class="art" xml:space="preserve">           .===------. ...-==o#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#-   ..---...  ..---.......  ....--=o#@@####-. .....---=ooo=-</text>
+<text x="69" y="341.0" class="art" xml:space="preserve">           -===-.---  ....-==o##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##o-    ..  .-=-==========-..-=-==o#@@@@@@@#--.   ......-#=-</text>
+<text x="69" y="350.5" class="art" xml:space="preserve">           -==---...  -..-==o###@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##oo==-.-=o###oo#######oo===ooo#@@@@@@@@@@#=--..........--</text>
+<text x="69" y="360.0" class="art" xml:space="preserve">          -=--.. ... .-..-=o###@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@###oooo#@@@@@@@@@@@@@@@@@##=#@@@@@@@@@@@@@@#o=-.........-=</text>
+<text x="69" y="369.5" class="art" xml:space="preserve">         .-=-.   ... ...--o##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#o#@@@@@@@@@@@@@@#o=-....-=---=</text>
+<text x="69" y="379.0" class="art" xml:space="preserve">         ---..   -...-.--o#@@@@@@@@@@@@@##ooooooo===ooooooooooo######@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#o=-....--==--</text>
+<text x="69" y="388.5" class="art" xml:space="preserve">          --..  ... .--=o@@@@@@@@@@@o=--..-..............-----=--=====ooo####@@@##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#o---..-==-.--</text>
+<text x="69" y="398.0" class="art" xml:space="preserve">          .---.. ....-o#@@@@@@@@@=-...........       .  .        ....---==oooooooo#oo##o##oo###ooooooooooo=====ooo###@@@@#@@@@@@@@@@@@#=--- .--.-==</text>
+<text x="69" y="407.5" class="art" xml:space="preserve">           .-.-. ....=#@@@@@@@@#===----......                        ..----==================------.....-.....-.------=o==oo@@@@@@@@@@#o.-.. .=====</text>
+<text x="69" y="417.0" class="art" xml:space="preserve">           .-....--=#@@@@@o====---------------=----...--=-...          ..-------------=------.... .             ............--=@@@@@@@@#-..-..--==</text>
+<text x="69" y="426.5" class="art" xml:space="preserve">            ....-o@@@@@@@@ .       .-------===------.---... .--.--... .....----------------.....                   ............-o@@@@@@@o...----=-</text>
+<text x="69" y="436.0" class="art" xml:space="preserve">             ....    .--=ooo-    .=-------=oo==----................ ...............-.......          ..............       ....---=#@@@@@@--.--===</text>
+<text x="69" y="445.5" class="art" xml:space="preserve">         .-=#o=-.....o@@@@@@o-  .=-------====-.. ... ........ ..........   ...-...-.... . .............   ....   .-===--==o=..---=#@@@@@@o..-==oo</text>
+<text x="69" y="455.0" class="art" xml:space="preserve">        ======oo--...#@@@@@@#= .===----....--=.. ... . .-.. ..    ......-              .   ..........       .........-----......==-#@@@@@o.---ooo</text>
+<text x="69" y="464.5" class="art" xml:space="preserve">       -===o#ooo.=-..@@@@@@@@o .#oo====oo==----.-.... .....     ...-...--  ...       ..  -. ...... ............-----....--====-....   . .@@----==</text>
+<text x="69" y="474.0" class="art" xml:space="preserve">      -===#@##@#==o--@@@@@@@@# -#@##ooo=====---------.-........-------=--    .===-.     ................       .....-------=====- ..   .-@@o..==</text>
+<text x="69" y="483.5" class="art" xml:space="preserve">     .===#@@@@@oo=@@@@@@@@@@@@.-o@@###ooo==--.........--.-------======-=.  -@@@@@@@#.   ...-............  .......---...-----====-  .-oo=....-=o.</text>
+<text x="69" y="493.0" class="art" xml:space="preserve">     -==o@@#oo=.-=@@@@@@@@@@@@@.=#@@@@@@@@#####oooooo####oooo##oooo==--.  =@@@@@@@@@#   ..----.............---------====---==o=o-  =@@@@=-o=o@#.</text>
+<text x="69" y="502.5" class="art" xml:space="preserve">     -oo@#o==---o@@@@@@@@@@@@@@@o#@@@@@@@@@@@@@@@@@@@@@@###ooooooo===-  -#@@@@@@@@@@#=   .---====---.......--------=====ooooo#@#. =@@@@@-##o=ooo-</text>
+<text x="69" y="512.0" class="art" xml:space="preserve">      o#@#==--@@@@@@@@@@@@@@@@@@@#o#@@@@@@@@@@@@@#####ooooooooooooo-..o@@@@@@@@@@@@@@#=  ..--===ooooooo==============ooooo##@@@. =@@@@@@=##o==oo=</text>
+<text x="69" y="521.5" class="art" xml:space="preserve">      -@@#==-o@####@@@@@@@@@@@@@@@@@@@@@@@@@@@#####ooooo===oo###o- -o@@@@@@@@@@@@@@@@@##- .---==ooo######@@@@@@@@@@@@@@@@@@@@@-.o@@@@@@#o@@@#=oo#=</text>
+<text x="69" y="531.0" class="art" xml:space="preserve">       #@#===########@@@@@@@@@@@@@@@@@@@###@@@@@@@@@@@@@@@#oo=-===#####@@@@@@@@@@@@@@@@##o. ---==oooo###@@@@@@@@@@@@@@@@@@@@@--#@@@@@@@#o@@@@=oo#-</text>
+<text x="69" y="540.5" class="art" xml:space="preserve">       -#@@@@@##o#####@@@@@@@@@@@@@###oooo===---.-.-----....#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=---====ooooooo###@@@@@@@@@@@@#o#@@@@@@@@@o=oo@@#ooo-</text>
+<text x="69" y="550.0" class="art" xml:space="preserve">       .@@@@@@@@oooo###@@@@#@@@@#oooooo========----........o##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=..--==========oooo##@@#oo#@@@@@@@@@@@@@@=o#@@##o</text>
+<text x="69" y="559.5" class="art" xml:space="preserve">       -@@@@@##ooooo##@@@@##@@#oo===o======------........----...-=o######ooo======oo######@@#####-..---...--------=====o#@@@@@@@@@@@@@##@#o#@@@#.</text>
+<text x="69" y="569.0" class="art" xml:space="preserve">        o@@@@@@@@@@@##@@@###@#o=---o===------..   ....------=--....  ..-=============--.......---.......-------------==ooo#@@@@@@@@@@####=o#@@@.</text>
+<text x="69" y="578.5" class="art" xml:space="preserve">        .o@@@@@@@@@@####@@##@o==--=o==---..     ........----.....         ..---...           .----.....   .--====--======oo##@@@@@@@##@@oo#@@@-</text>
+<text x="69" y="588.0" class="art" xml:space="preserve">           .=oooo==-..o#####@o=-.-o=---.   .. .  ......---==-=----....                      ....----....    .---------====oo##@@@@@oo@@@@@@@@o</text>
+<text x="69" y="597.5" class="art" xml:space="preserve">                       .#####o=---=---.....  ....--===ooooooooooooo====----........---===ooooo==----.......    .---=---==ooo##@#@@ooo#@@@@@@#</text>
+<text x="69" y="607.0" class="art" xml:space="preserve">                        -o#o##==--o---=-.   .............-----------------........------=======ooooo=--......    .--=---==oo##o@@@@@####@@@@.</text>
+<text x="69" y="616.5" class="art" xml:space="preserve">                         =ooo#o=--==-==--.  .-.         .....---...-------....--.....-..----------------........  --===--=o##o#@#o#@@@@@@@@-</text>
+<text x="69" y="626.0" class="art" xml:space="preserve">                         -oooooo=--==--==-...----.      .---o@#o#@##o@@##=----====------.-==-...       .. ... ....--===-=o#@=##=..=o#@@@@o.</text>
+<text x="69" y="635.5" class="art" xml:space="preserve">                         .ooooooo=-====-==----===oo===-..o#=@@@@@@@@@@@@@@@#@@@@@@@@@@@@o@@@@=o-         .......--===o--=##o##=      ..</text>
+<text x="69" y="645.0" class="art" xml:space="preserve">                         .#ooooooo======--=----==oooo##@@##oo#o.-ooo@@@@@@@#@@@@@@@@@@@@.-#@#o#-      .----..---=====-==##oo#o</text>
+<text x="69" y="654.5" class="art" xml:space="preserve">                          =#oooooo=================ooooo#@@@@@@@@@@@@##oo==-=====ooooooo#o#########oooo===-----===oo===##oo#o.</text>
+<text x="69" y="664.0" class="art" xml:space="preserve">                          -#oo=======================ooooooooo##@@#@@@#############@@@@@@@@@@@@#####oo====---====oo===#oooo#-</text>
+<text x="69" y="673.5" class="art" xml:space="preserve">                          -oooo=======================ooooo==============--=-======oooooooo=oooooooo============ooo=ooooooo=</text>
+<text x="69" y="683.0" class="art" xml:space="preserve">                          -oooo=================================-------.....---------------===ooo==================oooo=oo-</text>
+<text x="69" y="692.5" class="art" xml:space="preserve">                           =ooo=======================o======-----............-------------=======ooo============oo===ooo-</text>
+<text x="69" y="702.0" class="art" xml:space="preserve">                           o#oo=======================oooo====-----...................-------===oo=====================-</text>
+<text x="69" y="711.5" class="art" xml:space="preserve">                           =oooo=====oo==============o==oooo=======----.............----=====ooooooo=================-</text>
+<text x="69" y="721.0" class="art" xml:space="preserve">                           .#ooo========o=====o=======================----------------=====oooooooooooo==========oo=.</text>
+<text x="69" y="730.5" class="art" xml:space="preserve">                           .###ooo====--===oo===============-==--==-------------------=======ooooooooo=======oo====</text>
+<text x="69" y="740.0" class="art" xml:space="preserve">                           .###oooo====------===========----=----------------------------==========oo===oooo====oo.</text>
+<text x="69" y="749.5" class="art" xml:space="preserve">                            o#####oo====----------------==-----------------------------------=======oooo==----=o#o</text>
+<text x="69" y="759.0" class="art" xml:space="preserve">                            =####ooooo====--------..-------------------------------=-----=======oo===--..--===o##-</text>
+<text x="69" y="768.5" class="art" xml:space="preserve">                            =###ooooooooo===-=------....-.--------------==--=-===============----.....---==oo##@o</text>
+<text x="69" y="778.0" class="art" xml:space="preserve">                            o######oooooooooo=o====---........--------------------------...........----==ooo###@o</text>
+<text x="69" y="787.5" class="art" xml:space="preserve">                            o#######ooooooooooo##oooo==--...                ..................-.-----===ooo###@@-</text>
+<text x="69" y="797.0" class="art" xml:space="preserve">                            -########oo#ooo###########oo==--...                 .......-----------====oooo####@@.</text>
+<text x="69" y="806.5" class="art" xml:space="preserve">                            =######oo####################oo==--..................-------===========ooooo####@@@@.</text>
+<text x="69" y="816.0" class="art" xml:space="preserve">      --o####@o=-           o##########ooo#########oooooooo===--.............-------============oooooo#####@@@@@.</text>
+<text x="69" y="825.5" class="art" xml:space="preserve">  -@@@@@@@@@@@@@@@@@@@@#--o@@@############ooooooooooooo========--------------------=====oooooooooooo#####@@@@@@@-</text>
+<text x="69" y="835.0" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@@@@@#@@@@@####oooooooooooooooo================----------------=======oooooooooo######@@@@@@@#</text>
+<text x="69" y="844.5" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@@@@@@@@@@@####ooooooooooooooooo===============----------------=======oooooo##########@@@@@@@@@-</text>
+<text x="69" y="854.0" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@@@@@@@@@@####ooooooooooo================--------------------========ooooooo#o########@@@@@@@@@@@@@@@@#=-.</text>
+<text x="69" y="863.5" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@@@@@@@@@@###ooooooooooooooo==========------------------------========ooooooo#########@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@o--</text>
+<text x="69" y="873.0" class="art" xml:space="preserve"> @@@@@@@@@@@@#@@@@@@@@@@@@##@@##oooooooooooo=o============--------------------=========ooooooo###########@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@o</text>
+<text x="69" y="882.5" class="art" xml:space="preserve"> @@@@@@@@@@@@#@@@@@@@@@@@@@@####oooooooooooooooo===============-----------===========oooooooo###o#######@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=</text>
+<text x="69" y="892.0" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@###oooooooooooo=o=================--===-==============oooooooooooo#######@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=</text>
+<text x="69" y="901.5" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@@#oooooooooo====o================================ooooooooooooooo######@@@@@@@@@@@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#</text>
+<text x="69" y="911.0" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@o=oo==========================================o===oooooooo#####@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="69" y="920.5" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#===============================================ooooo###@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="69" y="930.0" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=--------------==-===================o===ooo###@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="69" y="939.5" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#o=-..------------===========ooooo####@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="69" y="949.0" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#######@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="69" y="958.5" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@########@##@@@@@@@@#############@#####@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="69" y="968.0" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@@o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@################@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="69" y="977.5" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="69" y="987.0" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@#o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+</g>
+```
+```
+<text x="46" y="1100" class="heading">PRANAV A KORLAHALLI</text>
+<text x="46" y="1118" class="muted">INFORMATION SCIENCE &amp; ENGINEERING · NIE MYSURU</text>
+<g transform="translate(-156,0) scale(1.1,1)">
+<text x="798" y="115" class="heading">01 / PROFILE</text>
+<text x="798" y="138" class="method-get">GET</text>
+<text x="836" y="138" class="endpoint">/api/v1/profile</text>
+<text x="798" y="156" class="status">HTTP/1.1 200 OK</text>
+<text x="810" y="174" class="code">{</text>
+<text x="822" y="191" class="value">"role": "Information Science &amp; Engineering"</text>
+<text x="822" y="208" class="value">"focus": "Backend APIs, test automation, ML"</text>
+<text x="822" y="225" class="value">"location": "Mysuru, Karnataka"</text>
+<text x="822" y="242" class="value">"approach": "Build, secure, test, iterate"</text>
+<text x="810" y="259" class="code">}</text>
+<line x1="798" y1="270" x2="1150" y2="270" class="rule"/>
+<text x="798" y="292" class="heading">02 / EDUCATION</text>
+<text x="798" y="315" class="method-get">GET</text>
+<text x="836" y="315" class="endpoint">/api/v1/education</text>
+<text x="798" y="333" class="status">HTTP/1.1 200 OK</text>
+<text x="810" y="351" class="code">{</text>
+<text x="822" y="368" class="value">"institution": "NIE, Mysuru"</text>
+<text x="822" y="385" class="value">"degree": "B.E. Information Science &amp; Eng."</text>
+<text x="822" y="402" class="value">"period": "2024–2028"</text>
+<text x="822" y="419" class="value">"GPA": "8.5"</text>
+<text x="810" y="436" class="code">}</text>
+<line x1="798" y1="447" x2="1150" y2="447" class="rule"/>
+<text x="798" y="469" class="heading">03 / TECHNICAL SKILLS</text>
+<text x="798" y="492" class="method-get">GET</text>
+<text x="836" y="492" class="endpoint">/api/v1/skills</text>
+<text x="798" y="510" class="status">HTTP/1.1 200 OK</text>
+<text x="810" y="528" class="code">{</text>
+<text x="822" y="545" class="value">"languages": "Java, Python, C, C++, JavaScript"</text>
+<text x="822" y="562" class="value">"backend": "Spring Boot, Data JPA, Security,"</text>
+<text x="822" y="579" class="value">            "PostgreSQL, REST API design"</text>
+<text x="822" y="596" class="value">"web": "React, Node.js/Express, HTML/CSS,"</text>
+<text x="822" y="613" class="value">        "Tailwind CSS, jQuery"</text>
+<text x="822" y="630" class="value">"ml": "Transformers, TinyLlama, LoRA/PEFT, TRL"</text>
+<text x="822" y="647" class="value">"tools": "Git/GitHub, Postman, IntelliJ, VS Code,"</text>
+<text x="822" y="664" class="value">          "PyCharm"</text>
+<text x="810" y="681" class="code">}</text>
+<line x1="798" y1="692" x2="1150" y2="692" class="rule"/>
+<text x="798" y="714" class="heading">04 / SOCIAL ENDPOINTS</text>
+<text x="798" y="737" class="method-post">POST</text>
+<text x="836" y="737" class="endpoint">/api/v1/socials</text>
+<text x="798" y="755" class="muted">Content-Type: application/json</text>
+<text x="810" y="773" class="code">{</text>
+<text x="822" y="790" class="value">"github": "github.com/pranav-326"</text>
+<text x="822" y="807" class="value">"linkedin": "linkedin.com/in/pranav-a-korlahalli"</text>
+<text x="822" y="824" class="value">"email": "akpranav66@gmail.com"</text>
+<text x="810" y="841" class="code">}</text>
+<text x="798" y="860" class="status">HTTP/1.1 201 Created</text>
+<line x1="798" y1="874" x2="1150" y2="874" class="rule"/>
+<text x="798" y="895" class="heading">05 / ENGINEERING SIGNALS</text>
+<text x="798" y="918" class="method-get">GET</text>
+<text x="836" y="918" class="endpoint">/api/v1/highlights</text>
+<text x="798" y="936" class="status">HTTP/1.1 200 OK</text>
+<text x="810" y="954" class="code">{</text>
+<text x="822" y="971" class="value">"testing": "JUnit 5, Mockito; happy-path + errors"</text>
+<text x="822" y="988" class="value">"open_source": "4+ Hacktoberfest pull requests"</text>
+<text x="822" y="1005" class="value">"algorithms": "Data structures &amp; algorithms"</text>
+<text x="810" y="1022" class="code">}</text>
+<text x="1184" y="115" class="heading">06 / PROJECTS</text>
+<text x="1184" y="138" class="method-get">GET</text>
+<text x="1222" y="138" class="endpoint">/api/v1/projects</text>
+<text x="1184" y="156" class="status">HTTP/1.1 200 OK</text>
+<text x="1184" y="174" class="project">Employee Management System</text>
+<text x="1184" y="190" class="project-meta">Java · Spring Boot · Data JPA · PostgreSQL</text>
+<text x="1184" y="208" class="project-body">Layered CRUD REST API with GitHub OAuth2</text>
+<text x="1184" y="223" class="project-body">session security; service tests with JUnit 5</text>
+<text x="1184" y="238" class="project-body">and Mockito for normal and exception cases.</text>
+<line x1="1184" y1="249" x2="1552" y2="249" class="rule"/>
+<text x="1184" y="269" class="project">ReGene</text>
+<text x="1184" y="285" class="project-meta">Python · TinyLlama · LoRA/PEFT · TRL</text>
+<text x="1184" y="303" class="project-body">Fine-tuned on a custom IEEE event-report</text>
+<text x="1184" y="318" class="project-body">JSONL dataset; reduced report turnaround</text>
+<text x="1184" y="333" class="project-body">from hours to minutes; published to Hugging Face.</text>
+<line x1="1184" y1="344" x2="1552" y2="344" class="rule"/>
+<text x="1184" y="364" class="project">Netra · Smart India Hackathon 2026</text>
+<text x="1184" y="380" class="project-meta">Python · FastAPI · ML · Next.js</text>
+<text x="1184" y="398" class="project-body">Email threat intelligence and forensics with</text>
+<text x="1184" y="413" class="project-body">phishing detection, URL and attachment checks,</text>
+<text x="1184" y="428" class="project-body">graph-based campaign correlation and telemetry.</text>
+<text x="1184" y="443" class="project-body">Logistic regression: ROC-AUC 0.867 on 7,321 emails.</text>
+<line x1="1184" y1="454" x2="1552" y2="454" class="rule"/>
+<text x="1184" y="474" class="project">Walkie-Yappie</text>
+<text x="1184" y="490" class="project-meta">Kotlin · Jetpack Compose · BLE · Wi-Fi Direct</text>
+<text x="1184" y="508" class="project-body">Offline walkie-talkie using BLE discovery and</text>
+<text x="1184" y="523" class="project-body">Wi-Fi Direct push-to-talk audio; mutual-approval</text>
+<text x="1184" y="538" class="project-body">pairing and outdoor range/stability field tests.</text>
+<line x1="1184" y1="549" x2="1552" y2="549" class="rule"/>
+<text x="1184" y="571" class="heading">07 / EXPERIENCE &amp; COMMUNITY</text>
+<text x="1184" y="594" class="method-get">GET</text>
+<text x="1222" y="594" class="endpoint">/api/v1/experience</text>
+<text x="1184" y="612" class="status">HTTP/1.1 200 OK</text>
+<text x="1196" y="630" class="code">{</text>
+<text x="1208" y="647" class="value">"nie_ieee": "Technology Coordinator"</text>
+<text x="1208" y="664" class="value">"term": "Dec 2025–Present"</text>
+<text x="1208" y="681" class="code">30+ React event platforms for 100+ participants;</text>
+<text x="1208" y="696" class="code">event-report automation and 3-session LangChain</text>
+<text x="1208" y="711" class="code">curriculum for 30+ students; GitHub org admin.</text>
+<text x="1208" y="736" class="value">"ieee_cs_bangalore": "Volunteer"</text>
+<text x="1208" y="753" class="value">"term": "Apr 2026–Present"</text>
+<text x="1208" y="770" class="code">10+ event creatives reaching 1,000+ attendees;</text>
+<text x="1208" y="785" class="code">co-developed an LLM-powered job-readiness evaluator.</text>
+<text x="1208" y="810" class="value">"hacktoberfest": "Open-source contributor"</text>
+<text x="1208" y="827" class="value">"term": "Oct–Nov 2024"</text>
+<text x="1208" y="844" class="code">4+ pull requests: bug fixes, optimization, docs,</text>
+<text x="1208" y="859" class="code">and collaboration through peer code reviews.</text>
+<text x="1196" y="878" class="code">}</text>
+<line x1="1184" y1="890" x2="1552" y2="890" class="rule"/>
+<text x="1184" y="912" class="heading">08 / IMPACT</text>
+<text x="1184" y="935" class="method-get">GET</text>
+<text x="1222" y="935" class="endpoint">/api/v1/impact</text>
+<text x="1184" y="953" class="status">HTTP/1.1 200 OK</text>
+<text x="1196" y="971" class="code">{</text>
+<text x="1208" y="988" class="value">"event_platforms": "30+ built"</text>
+<text x="1208" y="1005" class="value">"participants": "100+ served"</text>
+<text x="1208" y="1022" class="value">"reporting": "Hours to minutes"</text>
+<text x="1208" y="1039" class="value">"community_reach": "1,000+ attendees"</text>
+<text x="1196" y="1056" class="code">}</text>
+<text x="1552" y="1115" class="muted" text-anchor="end">PROFILE RESPONSE COMPLETE · 200 OK</text>
+</g>
+</svg>
