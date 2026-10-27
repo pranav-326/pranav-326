@@ -8,16 +8,20 @@
 text{font-family:Consolas,"SFMono-Regular",Menlo,Monaco,"Liberation Mono",monospace}
 .bg{fill:#161b22}
 .panel{fill:#1b222c;stroke:#303946;stroke-width:1.2}
-.heading{fill:#c9d1d9;font-size:20px;font-weight:700}
-.muted{fill:#8b949e;font-size:11px}
-.value{fill:#1782d9;font-size:18px}
-.code{fill:#c9d1d9;font-size:18px}
-.endpoint{fill:#25ad40;font-size:15px}
-.method-get{fill:#7ae183;font-size:18px;font-weight:700}
-.method-post{fill:#ff7b72;font-size:18px;font-weight:700}
-.status{fill:#7ee787;font-size:14px;font-weight:700}
+.heading{fill:#c9d1d9;font-size:18px;font-weight:700}
+.muted{fill:#8b949e;font-size:12px}
+.label{fill:#ffa657;font-size:13.5px}
+.value{fill:#1782d9;font-size:13.5px}
+.code{fill:#c9d1d9;font-size:13.5px}
+.endpoint{fill:#25ad40;font-size:13.5px}
+.method-get{fill:#7ae183;font-size:13.5px;font-weight:700}
+.method-post{fill:#ff7b72;font-size:13.5px;font-weight:700}
+.status{fill:#7ee787;font-size:12.5px;font-weight:700}
 .rule{stroke:#303946;stroke-width:1}
 .art{fill:#a5d6ff;font-size:6.2px}
+.project{fill:#ffa657;font-size:12px;font-weight:700}
+.project-meta{fill:#8b949e;font-size:10.4px}
+.project-body{fill:#efefe6;font-size:10.8px}
 </style>
 <rect class="bg" width="1600" height="1160" rx="22"/>
 <rect x="12" y="12" width="1576" height="1136" rx="18" fill="none" stroke="#303946"/>
@@ -133,61 +137,57 @@ text{font-family:Consolas,"SFMono-Regular",Menlo,Monaco,"Liberation Mono",monosp
 <text x="836" y="138" class="endpoint">/api/v1/profile</text>
 <text x="798" y="156" class="status">HTTP/1.1 200 OK</text>
 <text x="810" y="174" class="code">{</text>
-<text x="822" y="191" class="value">"role": "Information Science &amp; Engineering"</text>
-<text x="822" y="208" class="value">"focus": "Backend APIs, test automation, ML"</text>
-<text x="822" y="225" class="value">"location": "Mysuru, Karnataka"</text>
+<text x="822" y="191" class="value">"role": "Information Science &amp; Engineering",</text>
+<text x="822" y="208" class="value">"focus": "Backend APIs, test automation, ML",</text>
+<text x="822" y="225" class="value">"location": "Mysuru, Karnataka",</text>
 <text x="822" y="242" class="value">"approach": "Build, secure, test, iterate"</text>
 <text x="810" y="259" class="code">}</text>
-<line x1="798" y1="270" x2="1150" y2="270" class="rule"/>
+<line x1="798" y1="270" x2="1552" y2="270" class="rule"/>
 <text x="798" y="292" class="heading">02 / EDUCATION</text>
 <text x="798" y="315" class="method-get">GET</text>
 <text x="836" y="315" class="endpoint">/api/v1/education</text>
 <text x="798" y="333" class="status">HTTP/1.1 200 OK</text>
 <text x="810" y="351" class="code">{</text>
-<text x="822" y="368" class="value">"institution": "NIE, Mysuru"</text>
-<text x="822" y="385" class="value">"degree": "B.E. Information Science &amp; Eng."</text>
-<text x="822" y="402" class="value">"period": "2024–2028"</text>
+<text x="822" y="368" class="value">"institution": "NIE, Mysuru",</text>
+<text x="822" y="385" class="value">"degree": "B.E. Information Science &amp; Eng.",</text>
+<text x="822" y="402" class="value">"period": "2024–2028",</text>
 <text x="822" y="419" class="value">"GPA": "8.5"</text>
 <text x="810" y="436" class="code">}</text>
-<line x1="798" y1="447" x2="1150" y2="447" class="rule"/>
+<line x1="798" y1="447" x2="1552" y2="447" class="rule"/>
 <text x="798" y="469" class="heading">03 / TECHNICAL SKILLS</text>
 <text x="798" y="492" class="method-get">GET</text>
 <text x="836" y="492" class="endpoint">/api/v1/skills</text>
 <text x="798" y="510" class="status">HTTP/1.1 200 OK</text>
 <text x="810" y="528" class="code">{</text>
-<text x="822" y="545" class="value">"languages": "Java, Python, C, C++, JavaScript"</text>
-<text x="822" y="562" class="value">"backend": "Spring Boot, Data JPA, Security,"</text>
-<text x="822" y="579" class="value">            "PostgreSQL, REST API design"</text>
-<text x="822" y="596" class="value">"web": "React, Node.js/Express, HTML/CSS,"</text>
-<text x="822" y="613" class="value">        "Tailwind CSS, jQuery"</text>
-<text x="822" y="630" class="value">"ml": "Transformers, TinyLlama, LoRA/PEFT, TRL"</text>
-<text x="822" y="647" class="value">"tools": "Git/GitHub, Postman, IntelliJ, VS Code,"</text>
-<text x="822" y="664" class="value">          "PyCharm"</text>
-<text x="810" y="681" class="code">}</text>
-<line x1="798" y1="692" x2="1150" y2="692" class="rule"/>
+<text x="822" y="545" class="value">"languages": "Java, Python, C, C++, JavaScript",</text>
+<text x="822" y="562" class="value">"backend": "Spring Boot, Data JPA, Security, PostgreSQL",</text>
+<text x="822" y="579" class="value">"web": "React, Node.js/Express, HTML/CSS, Tailwind, jQuery",</text>
+<text x="822" y="596" class="value">"ml": "Transformers, TinyLlama, LoRA/PEFT, TRL",</text>
+<text x="822" y="613" class="value">"tools": "Git/GitHub, Postman, IntelliJ, VS Code, PyCharm"</text>
+<text x="810" y="630" class="code">}</text>
+<g transform="translate(0,-44)">
 <text x="798" y="714" class="heading">04 / SOCIAL ENDPOINTS</text>
 <text x="798" y="737" class="method-post">POST</text>
-<text x="850" y="737" class="endpoint"> /api/v1/socials</text>
+<text x="836" y="737" class="endpoint">/api/v1/socials</text>
 <text x="798" y="755" class="muted">Content-Type: application/json</text>
 <text x="810" y="773" class="code">{</text>
-<text x="822" y="790" class="value">"github": "github.com/pranav-326"</text>
-<text x="822" y="807" class="value">"linkedin": "linkedin.com/in/pranav-a-korlahalli"</text>
+<text x="822" y="790" class="value">"github": "github.com/pranav-326",</text>
+<text x="822" y="807" class="value">"linkedin": "linkedin.com/in/pranav-a-korlahalli",</text>
 <text x="822" y="824" class="value">"email": "akpranav66@gmail.com"</text>
 <text x="810" y="841" class="code">}</text>
 <text x="798" y="860" class="status">HTTP/1.1 201 Created</text>
-<line x1="798" y1="874" x2="1150" y2="874" class="rule"/>
-<line x1="798" y1="874" x2="1150" y2="874" class="rule"/>
-<text x="798" y="895" class="heading">05 / IMPACT</text>
-<text x="798" y="918" class="method-get">GET</text>
-<text x="836" y="918" class="endpoint">/api/v1/impact</text>
-<text x="798" y="936" class="status">HTTP/1.1 200 OK</text>
-<text x="810" y="954" class="code">{</text>
-<text x="822" y="971" class="value">"event_platforms": "30+ built"</text>
-<text x="822" y="988" class="value">"participants": "100+ served"</text>
-<text x="822" y="1005" class="value">"reporting": "Hours to minutes"</text>
-<text x="822" y="1022" class="value">"community_reach": "1,000+ attendees"</text>
-<text x="810" y="1039" class="code">}</text>
-<text x="1196" y="1056" class="code">}</text>
+<line x1="798" y1="874" x2="1552" y2="874" class="rule"/>
+<text x="798" y="907" class="heading">05 / IMPACT</text>
+<text x="798" y="930" class="method-get">GET</text>
+<text x="836" y="930" class="endpoint">/api/v1/impact</text>
+<text x="798" y="948" class="status">HTTP/1.1 200 OK</text>
+<text x="810" y="966" class="code">{</text>
+<text x="822" y="983" class="value">"event_platforms": "30+ built",</text>
+<text x="822" y="1000" class="value">"participants": "100+ served",</text>
+<text x="822" y="1017" class="value">"reporting": "Hours to minutes",</text>
+<text x="822" y="1034" class="value">"community_reach": "1,000+ attendees"</text>
+<text x="810" y="1051" class="code">}</text>
+</g>
 <text x="1552" y="1115" class="muted" text-anchor="end">PROFILE RESPONSE COMPLETE · 200 OK</text>
 </g>
 </svg>
