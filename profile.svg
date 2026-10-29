@@ -125,12 +125,17 @@ text{font-family:Consolas,"SFMono-Regular",Menlo,Monaco,"Liberation Mono",monosp
 <text x="69" y="977.5" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
 <text x="69" y="987.0" class="art" xml:space="preserve"> @@@@@@@@@@@@@@@@@@@#o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
 </g> -->
-<g id="pranav-ascii" font-family="monospace" xml:space="preserve">
-  <text x="0" y="0" font-size="16" fill="currentColor"><![CDATA[  ____  ____     _    _   _     _  __     __]]></text>
-  <text x="0" y="20" font-size="16" fill="currentColor"><![CDATA[|  _ \|  _ \   / \  | \ | |   / \ \ \   / /]]></text>
-  <text x="0" y="40" font-size="16" fill="currentColor"><![CDATA[| |_) | |_) | / _ \ |  \| |  / _ \ \ \ / /]]></text>
-  <text x="0" y="60" font-size="16" fill="currentColor"><![CDATA[|  __/|  _ < / ___ \| |\  | / ___ \ \ V /]]></text>
-  <text x="0" y="80" font-size="16" fill="currentColor"><![CDATA[|_|   |_| \_/_/   \_\_| \_|/_/   \ \ \_/]]></text>
+<g id="pranav-ascii"
+   transform="translate(46, 180)"
+   font-family="Consolas, monospace"
+   font-size="16"
+   fill="#a5d6ff"
+   xml:space="preserve">
+  <text x="0" y="0"><![CDATA[ ____  ____     _    _   _     _  __     __]]></text>
+  <text x="0" y="20"><![CDATA[|  _ \|  _ \   / \  | \ | |   / \ \ \   / /]]></text>
+  <text x="0" y="40"><![CDATA[| |_) | |_) | / _ \ |  \| |  / _ \ \ \ / /]]></text>
+  <text x="0" y="60"><![CDATA[|  __/|  _ < / ___ \| |\  | / ___ \ \ V /]]></text>
+  <text x="0" y="80"><![CDATA[|_|   |_| \_/_/   \_\_| \_|/_/   \ \ \_/]]></text>
 </g>
 ```
 ```
